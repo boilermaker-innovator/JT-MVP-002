@@ -1,263 +1,263 @@
+HTML:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Job Teaser | OHLMEC - Mechanical Fitters and Boilermakers</title>
-<style>
-body {
-font-family: Arial, sans-serif;
-max-width: 600px;
-margin: 5px auto;
-padding: 5px;
-background-color: #f0f0f0;
-}
-.job-teaser {
-background-color: white;
-border-radius: 12px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-overflow: hidden;
-border: 2px solid #0056b3;
-}
-.header {
-display: flex;
-align-items: center;
-background-color: #0056b3;
-padding: 10px;
-}
-.logo {
-width: 150px;
-height: auto;
-margin-right: 20px;
-}
-.title-location {
-flex-grow: 1;
-}
-.job-title {
-color: white;
-font-size: 1.4em;
-font-weight: bold;
-margin: 0 0 5px 0;
-}
-.location {
-color: #e0e0e0;
-font-size: 0.9em;
-}
-.content {
-padding: 5px;
-position: relative;
-overflow: hidden;
-min-height: 160px;
-}
-.slide {
-display: none;
-animation: fadeEffect 0.5s;
-}
-.slide.active {
-display: block;
-}
-@keyframes fadeEffect {
-from {opacity: 0;}
-to {opacity: 1;}
-}
-.nav-dots {
-text-align: center;
-margin-top: 2px;
-}
-.dot {
-height: 8px;
-width: 8px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-margin: 0 3px;
-cursor: pointer;
-}
-.dot.active {
-background-color: #0056b3;
-}
-.full-ad-toggle {
-text-align: right;
-padding: 2px 5px;
-background-color: #f0f0f0;
-font-size: 0.9em;
-}
-.full-job-ad {
-display: none;
-padding: 10px;
-background-color: #f9f9f9;
-border-top: 1px solid #ddd;
-font-size: 0.9em;
-max-height: 300px;
-overflow-y: auto;
-}
-.apply-button {
-display: block;
-width: 100%;
-padding: 8px;
-background-color: #0056b3;
-color: white;
-text-align: center;
-text-decoration: none;
-font-weight: bold;
-border: none;
-cursor: pointer;
-}
-.apply-button:hover {
-background-color: #003d82;
-}
-h2 {
-margin: 5px 0;
-color: #0056b3;
-font-size: 1.1em;
-}
-ul {
-margin: 3px 0;
-padding-left: 20px;
-}
-li {
-margin-bottom: 2px;
-}
-p {
-margin: 3px 0;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Teaser | OHLMEC - Mechanical Fitters and Boilermakers</title>
 </head>
 <body>
-<div class="job-teaser">
-<div class="header">
-<img src="https://imgur.com/YfxWinv" alt="OHLMEC Logo" class="logo">
-<div class="title-location">
-<h1 class="job-title">Mechanical Fitters and Boilermakers</h1>
-<div class="location">📍 Kalgoorlie, Western Australia</div>
-</div>
-</div>
-<div class="content">
-<div class="slide active">
-<h2>Job Overview</h2>
-<ul>
-<li>Join a growing WA owned and operated company</li>
-<li>Attractive remuneration and various rosters available</li>
-<li>Opportunities for career development</li>
-<li>Diverse and inclusive work environment</li>
-</ul>
-</div>
-<div class="slide">
-<h2>Key Responsibilities</h2>
-<ul>
-<li>Perform mechanical fitting or boilermaking tasks</li>
-<li>Work in a fast-paced environment</li>
-<li>Contribute to maintenance and fabrication projects</li>
-<li>Uphold company's core values in daily operations</li>
-</ul>
-</div>
-<div class="slide">
-<h2>Requirements</h2>
-<ul>
-<li>Australian Recognised Trade Qualification</li>
-<li>Valid manual Australian Driver's licence</li>
-<li>Confined space, Working at heights, and White Card</li>
-<li>Proven experience in a similar role</li>
-</ul>
-</div>
-<div class="slide">
-<h2>Benefits</h2>
-<ul>
-<li>Attractive remuneration package</li>
-<li>Career growth opportunities</li>
-<li>Flexible roster options</li>
-<li>Be part of a culture you're proud of</li>
-</ul>
-</div>
-</div>
-<div class="nav-dots">
-<span class="dot active" onclick="currentSlide(1)"></span>
-<span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
-<span class="dot" onclick="currentSlide(4)"></span>
-</div>
-<div class="full-ad-toggle">
-<label for="fullAdToggle">Show Full Job Ad</label>
-<input type="checkbox" id="fullAdToggle" onclick="toggleFullAd()">
-</div>
-<div class="full-job-ad" id="fullJobAd">
-<h2>Full Job Description</h2>
-<p><strong>About OHLMEC:</strong> OHLMEC provides project management and consulting, specialised maintenance, fabrication on and off site, construction support and structural integrity maintenance and repairs to a variety of clients across Western Australia. With a workforce approaching 100+, we have strategically grown from our beginnings in early 2022.</p>
+  <div class="job-teaser">
+    <div class="header">
+      <img src="https://imgur.com/tOlTNfk" alt="OHLMEC Logo" class="logo">
+      <div class="title-location">
+        <h1 class="job-title">Mechanical Fitters and Boilermakers</h1>
+        <div class="location">📍 Kalgoorlie, Western Australia</div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="slide active">
+        <h2>Job Overview</h2>
+        <ul>
+          <li>Join a growing WA owned and operated company</li>
+          <li>Attractive remuneration and various rosters available</li>
+          <li>Opportunities for career development</li>
+          <li>Diverse and inclusive work environment</li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h2>Key Responsibilities</h2>
+        <ul>
+          <li>Perform mechanical fitting or boilermaking tasks</li>
+          <li>Work in a fast-paced environment</li>
+          <li>Contribute to maintenance and fabrication projects</li>
+          <li>Uphold company's core values in daily operations</li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h2>Requirements</h2>
+        <ul>
+          <li>Australian Recognised Trade Qualification</li>
+          <li>Valid manual Australian Driver's licence</li>
+          <li>Confined space, Working at heights, and White Card</li>
+          <li>Proven experience in a similar role</li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h2>Benefits</h2>
+        <ul>
+          <li>Attractive remuneration package</li>
+          <li>Career growth opportunities</li>
+          <li>Flexible roster options</li>
+          <li>Be part of a culture you're proud of</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-dots">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <div class="full-ad-toggle">
+      <label for="fullAdToggle">Show Full Job Ad</label>
+      <input type="checkbox" id="fullAdToggle" onclick="toggleFullAd()">
+    </div>
+    <div class="full-job-ad" id="fullJobAd">
+      <h2>Full Job Description</h2>
+      <p><strong>About OHLMEC:</strong> OHLMEC provides project management and consulting, specialised maintenance, fabrication on and off site, construction support and structural integrity maintenance and repairs to a variety of clients across Western Australia. With a workforce approaching 100+, we have strategically grown from our beginnings in early 2022.</p>
 
-<h3>About the Role:</h3>
-<p>We are seeking experienced local Mechanical Fitters and Boilermakers to join our Kalgoorlie Operations. This role is part of our rapid growth and offers an opportunity to be part of a company that values safety, quality, culture, and integrity.</p>
+      <h3>About the Role:</h3>
+      <p>We are seeking experienced local Mechanical Fitters and Boilermakers to join our Kalgoorlie Operations. This role is part of our rapid growth and offers an opportunity to be part of a company that values safety, quality, culture, and integrity.</p>
 
-<h3>Key Responsibilities:</h3>
-<ul>
-<li>Perform mechanical fitting or boilermaking tasks as per project requirements</li>
-<li>Work efficiently in a busy, fast-paced environment</li>
-<li>Contribute to maintenance, fabrication, and construction support projects</li>
-<li>Uphold and promote the company's four core values in daily operations</li>
-</ul>
+      <h3>Key Responsibilities:</h3>
+      <ul>
+        <li>Perform mechanical fitting or boilermaking tasks as per project requirements</li>
+        <li>Work efficiently in a busy, fast-paced environment</li>
+        <li>Contribute to maintenance, fabrication, and construction support projects</li>
+        <li>Uphold and promote the company's four core values in daily operations</li>
+      </ul>
 
-<h3>Qualifications and Skills:</h3>
-<ul>
-<li>Australian Recognised Trade Qualification (essential)</li>
-<li>Current and valid manual Australian Driver's licence (essential)</li>
-<li>Confined space, Working at heights and White Card certifications</li>
-<li>Gas Test Atmospheres certification (for Boilermakers)</li>
-<li>Advantageous: EWP, (LF) Forklift, Crane, and Basic rigging Tickets</li>
-<li>NPC within 12 Months or willingness to obtain</li>
-<li>Proven experience in a similar role</li>
-<li>Ability to perform under pressure in a fast-paced environment</li>
-</ul>
+      <h3>Qualifications and Skills:</h3>
+      <ul>
+        <li>Australian Recognised Trade Qualification (essential)</li>
+        <li>Current and valid manual Australian Driver's licence (essential)</li>
+        <li>Confined space, Working at heights and White Card certifications</li>
+        <li>Gas Test Atmospheres certification (for Boilermakers)</li>
+        <li>Advantageous: EWP, (LF) Forklift, Crane, and Basic rigging Tickets</li>
+        <li>NPC within 12 Months or willingness to obtain</li>
+        <li>Proven experience in a similar role</li>
+        <li>Ability to perform under pressure in a fast-paced environment</li>
+      </ul>
 
-<h3>Benefits:</h3>
-<ul>
-<li>Attractive remuneration package</li>
-<li>Opportunities for career development within a growing company</li>
-<li>Various roster options available</li>
-<li>Be part of a culture you can be proud of</li>
-</ul>
+      <h3>Benefits:</h3>
+      <ul>
+        <li>Attractive remuneration package</li>
+        <li>Opportunities for career development within a growing company</li>
+        <li>Various roster options available</li>
+        <li>Be part of a culture you can be proud of</li>
+      </ul>
 
-<p><strong>Additional Information:</strong> OHLMEC is an Equal Opportunity Employer and promotes equality and diversity. Indigenous Australians and candidates from minority groups are encouraged to apply. Shortlisting will begin immediately, so interested candidates are encouraged to apply as soon as possible.</p>
-</div>
-<a href="mailto:careers@ohlmec.com.au" class="apply-button" target="_blank">Apply Now</a>
-</div>
+      <p><strong>Additional Information:</strong> OHLMEC is an Equal Opportunity Employer and promotes equality and diversity. Indigenous Australians and candidates from minority groups are encouraged to apply. Shortlisting will begin immediately, so interested candidates are encouraged to apply as soon as possible.</p>
+    </div>
+    <a href="mailto:careers@ohlmec.com.au" class="apply-button" target="_blank">Apply Now</a>
+  </div>
+</body>
+</html>
 
-<script>
+CSS:
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+.job-teaser {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 2px solid #0056b3;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #0056b3;
+  padding: 10px;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+.title-location {
+  flex-grow: 1;
+}
+.job-title {
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+.location {
+  color: #e0e0e0;
+  font-size: 0.9em;
+}
+.content {
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+  min-height: 160px;
+}
+.slide {
+  display: none;
+  animation: fadeEffect 0.5s;
+}
+.slide.active {
+  display: block;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.nav-dots {
+  text-align: center;
+  margin-top: 2px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.dot.active {
+  background-color: #0056b3;
+}
+.full-ad-toggle {
+  text-align: right;
+  padding: 2px 5px;
+  background-color: #f0f0f0;
+  font-size: 0.9em;
+}
+.full-job-ad {
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.apply-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.apply-button:hover {
+  background-color: #003d82;
+}
+h2 {
+  margin: 5px 0;
+  color: #0056b3;
+  font-size: 1.1em;
+}
+ul {
+  margin: 3px 0;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 2px;
+}
+p {
+  margin: 3px 0;
+}
+
+JavaScript:
 let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-showSlides(slideIndex += n);
+  showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-showSlides(slideIndex = n);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-let i;
-let slides = document.getElementsByClassName("slide");
-let dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
-slides[i].classList.remove("active");
-}
-for (i = 0; i < dots.length; i++) {
-dots[i].classList.remove("active");
-}
-slides[slideIndex-1].classList.add("active");
-dots[slideIndex-1].classList.add("active");
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+  slides[slideIndex-1].classList.add("active");
+  dots[slideIndex-1].classList.add("active");
 }
 
 function toggleFullAd() {
-const fullJobAd = document.getElementById("fullJobAd");
-const checkbox = document.getElementById("fullAdToggle");
-fullJobAd.style.display = checkbox.checked ? "block" : "none";
+  const fullJobAd = document.getElementById("fullJobAd");
+  const checkbox = document.getElementById("fullAdToggle");
+  fullJobAd.style.display = checkbox.checked ? "block" : "none";
 }
 
 // Auto-slide functionality
 setInterval(() => {
-plusSlides(1);
+  plusSlides(1);
 }, 5000); // Change slide every 5 seconds
-</script>
-</body>
-</html>
